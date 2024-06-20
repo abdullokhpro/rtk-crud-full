@@ -1,0 +1,27 @@
+.admin {
+  &__container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
+
+  &__sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    height: 100vh;
+    max-width: 300px;
+  }
+
+  &__content {
+    margin-top: 100px;
+  }
+
+  &__log-out {
+    top: 50%;
+    left: 50%;
+    transform: scale(-50%, -50%);
+    color: rgb(180, 36, 36);
+    font-size: 50px;
+  }
+}
